@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background:url('/assets/blizzard.png');
+  font-family: 'Arimo', sans-serif;
+}
+
+p, i {
+  font-size: 18px;
+  margin: 0px;
+}
+
+a {
+  font-size: 18px;
+  color: black;
+}
+
+.clr {
+  clear:both;
+}
+
+.navbar {
+  border-radius: 0;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background:url('/assets/blackorchid.png');
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'lintsecregular', sans-serif;
+  font-size: 22px;
+  color: #FFC400;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFE38F;
+}
+
+.title {
+  margin: 0;
+  font-family: 'lintsecregular', sans-serif;
+}
+
+.subtitle {
+  margin: 0;
+  font-family: 'lintsecregular', sans-serif;
+  color: #FFE38F;
+  font-weight: 100;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #FCD142;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FFE38F;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top:10px;
+  margin-bottom:15px;
+  background-color: white;
+}
+
+.outer {
+  background:url('blackorchid.png');
+}
+
+.inner {
+  background:url('/assets/blizzard.png');
+}
+
+.gold_title {
+  color: #FCDA74;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 725px;
+  width: 100%;
+}

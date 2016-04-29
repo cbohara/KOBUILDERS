@@ -1,4 +1,10 @@
 KOBUILDERS::Application.routes.draw do
+
+  root 'static_pages#index'
+
+  get 'about', to: 'static_pages#about'
+  get 'contact', to: 'static_pages#contact'
+  get 'gallery', to: 'static_pages#gallery'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
