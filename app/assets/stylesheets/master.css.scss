@@ -90,6 +90,11 @@ a {
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  height: 650px;
+  height: 700px;
+  width: 100%;
+}
+
+#carousel-1 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 700px;
   width: 100%;
 }
